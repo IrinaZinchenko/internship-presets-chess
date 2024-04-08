@@ -1,0 +1,46 @@
+body {
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 18px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.section-top {
+display: flex;
+column-gap: 25px;
+}
+
+.top-title {
+  font-size: 24px;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.example-button {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.example-text {
+  font-size: 14px;
+  color: #696969;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid #A9A9A9;
+}
+
+input:focus {
+  outline: none;
+}
