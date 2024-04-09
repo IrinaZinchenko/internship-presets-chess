@@ -1,6 +1,8 @@
 body {
-font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-font-size: 18px;
+padding: 5px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
 
 section {
@@ -10,8 +12,8 @@ section {
 }
 
 .section-top {
-display: flex;
-column-gap: 25px;
+  display: flex;
+  column-gap: 25px;
 }
 
 .top-title {
@@ -27,6 +29,12 @@ column-gap: 25px;
 .example-button {
   padding: 10px;
   border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.example-button:hover {
+  background-color: #DCDCDC;
 }
 
 .example-text {
