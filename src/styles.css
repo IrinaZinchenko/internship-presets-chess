@@ -1,14 +1,13 @@
 body {
-padding: 5px;
+  width: fit-content;
+  padding: 5px;
 
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 18px;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
+  margin: 30px 0;
 }
 
 .section-top {
@@ -24,6 +23,9 @@ section {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
+
+  width: 250px;
+  margin-left: auto;
 }
 
 .example-button {
@@ -40,6 +42,12 @@ section {
 .example-text {
   font-size: 14px;
   color: #696969;
+}
+
+.section-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 
 input {
